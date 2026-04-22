@@ -2,7 +2,7 @@
 
 A modern, Netflix-inspired streaming platform built with React, featuring intelligent movie recommendations powered by a custom AI engine. Browse thousands of movies, get personalized suggestions, and enjoy a premium viewing experience.
 
-![DFLIX Banner](https://via.placeholder.com/1200x400/0a0a0a/E50914?text=DFLIX)
+
 
 ## ✨ Features
 
@@ -192,19 +192,6 @@ const scored = allMovies.map(movie => {
 - [ ] Dark/Light theme toggle
 - [ ] Accessibility improvements (WCAG compliance)
 
-## 📸 Screenshots
-
-### Home Page
-![Home](https://via.placeholder.com/800x450/0a0a0a/E50914?text=Home+Page)
-
-### Movie Details
-![Details](https://via.placeholder.com/800x450/0a0a0a/E50914?text=Movie+Details)
-
-### My List
-![My List](https://via.placeholder.com/800x450/0a0a0a/E50914?text=My+List)
-
-### Profile
-![Profile](https://via.placeholder.com/800x450/0a0a0a/E50914?text=Profile)
 
 ## 🤝 Contributing
 
@@ -228,12 +215,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Framer Motion](https://www.framer.com/motion/) for animation capabilities
 - Netflix for design inspiration
 
-## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
 
-Project Link: [https://github.com/yourusername/dflix](https://github.com/yourusername/dflix)
 
----
 
 ⭐ Star this repo if you found it helpful!
