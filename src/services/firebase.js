@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithEmailAndPasswor
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_-ucXuiYTo3VfslEIx1ZRML0hFrnuc9k",
-  authDomain: "movies-9c520.firebaseapp.com",
-  projectId: "movies-9c520",
-  storageBucket: "movies-9c520.firebasestorage.app",
-  messagingSenderId: "803543336886",
-  appId: "1:803543336886:web:bea669a31b80294308a317"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
